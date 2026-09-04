@@ -3,24 +3,29 @@ layout: default
 title: About
 ---
 
-# About Me
+# About
 
-我是 JacoChan，一个全栈 AI 架构师。
+I'm JacoChen, an AI Architect who builds enterprise AI platforms from the ground up.
 
-## 我能做什么
+## What I've Built
 
-- ⚡ **1-2 个月从零搭建企业级 AI 平台**（LLM + RAG + Agent + 部署）
-- 🏗️ **端到端系统设计**：从需求分析到架构设计到生产部署
-- 🔧 **技术栈全覆盖**：Python / FastAPI / LangChain / LangGraph / vLLM / 向量数据库 / K8s
+An enterprise AI workbench serving ~300 users across four business domains — conversation AI, natural language data dashboards, a skill marketplace, and external tool integration via MCP. Single-process monolith, LangGraph orchestration, MongoDB for everything, deployed on-premise in compliance with China's PIPL.
 
-## 我的信念
+The system went through three major architecture rewrites in eight months. The hallucination rate dropped from 35% to under 7%. The blog posts on this site document the trade-offs, failures, and design decisions from that journey.
 
-> "不是你知道什么，而是你造了什么。" — 面试官的话  
-> "反过来想，总是反过来想。" — 查理·芒格  
-> "删除、删除、删除。" — 埃隆·马斯克  
+## Technical Depth
 
-## 联系方式
+- **LangGraph**: Hierarchical graph topology with sub-graph composition. Root graph holds the only checkpointer. ReAct sub-graphs inherit and bubble up interrupts correctly.
+- **Semantic Layer**: MongoDB views with `$set` (additive collapse, not destructive `$project`). Boolean labels, unified time fields, pre-computed amounts. 3 views replace 4 physical tables.
+- **Intent System**: 11-intent catalog as single source of truth. Vector shortcircuit (37%, ~200ms) + LLM with few-shot fallback (63%). Slot guards, evidence-based write permissions, compound intent decomposition.
+- **Anti-Hallucination**: 7-layer defense — structured output, few-shot anchoring, bigram scoring, dual-use routing, 6-gate validation, ratio/count disambiguation, nightly calibration.
+- **Observability**: 8-table lineage system (trace_request → graph_run → node_run → llm_call → skill_run + trace_link + trace_event + usage). ~2ms overhead per node.
 
-- 📧 Email: jacochen1108@gmail.com
-- 🐙 GitHub: [github.com/JacoChan-EatTheBlock](https://github.com/JacoChan-EatTheBlock)
-- 💼 LinkedIn: [linkedin.com/in/你的ID](#)
+## Background
+
+Full-stack AI engineer. NAU Online Master in Data Analytics. Experienced in Python async, MongoDB, FastAPI, Kubernetes, and LLM application architecture.
+
+## Contact
+
+- GitHub: [JacoChan-EatTheBlock](https://github.com/JacoChan-EatTheBlock)
+- Email: duongvantrang38716@gmail.com

@@ -1,31 +1,51 @@
 ---
 layout: default
-title: Home
+title: JacoChen — AI Architect
 ---
 
-# 🧠 JacoChan | AI Architect
+# JacoChen
 
-> 全栈 AI 架构师 · 1-2 个月从零搭建企业级 AI 平台  
-> LLM / RAG / Agent / 向量数据库 / K8s 部署
+**AI Architect** · Building enterprise AI platforms from scratch
+
+I design and ship production AI systems — LangGraph orchestration, MongoDB semantic layers, anti-hallucination pipelines, and the architecture trade-offs nobody writes about. One engineer, ~300 users, four business domains, eight months in production.
+
+---
+
+## Writing
+
+### Architecture & Trade-offs
+
+**[Six Trade-offs That Shaped Our Enterprise AI Workbench]({{ site.baseurl }}/2026/09/04/building-enterprise-ai-workbench/)**
+LangGraph vs plain chains, MongoDB for everything, monolith with escape hatches, K8s sandbox security, three-layer memory, and on-premise domestic LLM. What we gained, what we accepted.
+
+**[How I Built an Enterprise AI Platform from Scratch in 2 Months]({{ site.baseurl }}/2026/09/04/build-ai-platform-from-scratch/)**
+Week-by-week account of building a four-domain AI workbench solo. The shortcuts that saved time, the decisions that created debt, and the three things I'd change.
+
+### AI Quality Engineering
+
+**[7 Production Techniques That Cut Our RAG Hallucination Rate by 80%]({{ site.baseurl }}/2026/09/05/reduce-rag-hallucination/)**
+Structured output enforcement, few-shot anchoring, bigram scoring for Chinese NLP, dual-use intent routing, output field validation, and the evaluation loop that made it all measurable. From 35% to under 7%.
+
+### Domain Intelligence
+
+**[From Text-to-MQL to AI-Native Dashboards: Five Architectural Shifts]({{ site.baseurl }}/2026/09/05/from-text-to-mql-to-ai-native-dashboards/)**
+Semantic views with additive collapse, constrained vocabulary, multi-gate intent routing with slot guards, precedent-based generation, and the math behind it all (set theory, DAGs, normalization). Three architecture rewrites in eight months.
 
 ---
 
-## 最新文章
+## What I Work With
 
-{% for post in site.posts limit:10 %}
-### [{{ post.title }}]({{ post.url }})
-<small>{{ post.date | date: "%Y-%m-%d" }} · {{ post.categories | join: ", " }}</small>
-
-{{ post.excerpt }}
+| Layer | Stack |
+|-------|-------|
+| Orchestration | LangGraph — stateful graphs, interrupt/resume, sub-graph composition |
+| Database | MongoDB — checkpoint + store + business + vector search (one DB for everything) |
+| LLM Engineering | Structured output (Pydantic), semantic routing, few-shot anchoring, evaluation loops |
+| Security | YARA scanning, K8s sandbox isolation, PIPL compliance, on-premise deployment |
+| Observability | Custom 8-table lineage system (no LangSmith — on-premise constraints) |
 
 ---
-{% endfor %}
 
-## 关于我
+## Contact
 
-5 年+ AI/后端工程经验，擅长从零搭建企业级 AI 平台。
-
-- 🔧 **技术栈**: Python / LangChain / LangGraph / vLLM / RAG / Agent / K8s
-- 🏗️ **核心能力**: 端到端 AI 系统设计 · 从原型到生产
-- 📧 **联系**: jacochen1108@gmail.com
-- 🐙 **GitHub**: [JacoChan-EatTheBlock](https://github.com/JacoChan-EatTheBlock)
+- GitHub: [JacoChan-EatTheBlock](https://github.com/JacoChan-EatTheBlock)
+- Email: duongvantrang38716@gmail.com

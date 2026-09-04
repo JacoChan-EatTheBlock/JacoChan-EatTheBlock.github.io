@@ -1,28 +1,27 @@
-# JacoChan's AI Architect Blog
-title: "JacoChan | AI Architect"
-description: "AI 架构实战笔记 · 从零到生产的全栈 AI 经验"
-author: "JacoChan"
-url: "https://jacochan-eattheblock.github.io" # 你的 GitHub Pages 地址
+# JacoChen's AI Architect Blog
+title: "JacoChen | AI Architect"
+description: "Building enterprise AI platforms from scratch. Architecture trade-offs, production lessons, and the engineering nobody talks about."
+author: "JacoChen"
+url: "https://jacochan-eattheblock.github.io"
 
-# 主题
+# Theme
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
 
-# 构建设置
+# Build
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
 
-# 导航
+# Navigation
 nav:
   - title: Home
     url: /
   - title: About
     url: /about
-  - title: Projects
-    url: /projects
 
-# 社交链接
+# Social
 github_username: JacoChan-EatTheBlock
-linkedin_username: # 你的 LinkedIn 用户名

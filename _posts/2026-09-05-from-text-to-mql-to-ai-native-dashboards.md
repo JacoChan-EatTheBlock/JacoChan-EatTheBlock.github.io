@@ -1,5 +1,11 @@
+---
+layout: default
+title: "From Text-to-MQL to AI-Native Dashboards: Five Architectural Shifts for Production Data Intelligence"
+date: 2026-09-05
+categories: [AI Architecture, Data Dashboard, MongoDB, Semantic Layer]
+---
 
-Real users don't issue one instruction at a time. "Add a pie chart for insurance types and move the billing card to the top" is two operations. V3.0 includes a Compound Intent Planner that decomposes multi-instruction inputs into a task list:
+Real users don't issue one instruction at a time. "Add a pie chart for insurance types and move the billing card to the top" is two operations. V3.0 includes a Compound Intent Planner that decomposes
 
 ```json
 {

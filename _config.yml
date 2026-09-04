@@ -1,7 +1,7 @@
-# Van's AI Architect Blog
-title: "Van | AI Architect"
+# JacoChan's AI Architect Blog
+title: "JacoChan | AI Architect"
 description: "AI 架构实战笔记 · 从零到生产的全栈 AI 经验"
-author: "Van Trang Duong"
+author: "JacoChan"
 url: "" # 发布后改成 https://你的用户名.github.io
 
 # 主题
@@ -24,5 +24,5 @@ nav:
     url: /projects
 
 # 社交链接
-github_username: # 你的 GitHub 用户名
+github_username: JacoChan-EatTheBlock
 linkedin_username: # 你的 LinkedIn 用户名

@@ -5,7 +5,7 @@ title: About
 
 # About Me
 
-我是 Van，一个全栈 AI 架构师。
+我是 JacoChan，一个全栈 AI 架构师。
 
 ## 我能做什么
 
@@ -21,6 +21,6 @@ title: About
 
 ## 联系方式
 
-- 📧 Email: duongvantrang38716@gmail.com
-- 🐙 GitHub: [github.com/你的用户名](#)
+- 📧 Email: jacochen1108@gmail.com
+- 🐙 GitHub: [github.com/JacoChan-EatTheBlock](https://github.com/JacoChan-EatTheBlock)
 - 💼 LinkedIn: [linkedin.com/in/你的ID](#)

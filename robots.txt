@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jacochan-eattheblock.github.io/sitemap.xml

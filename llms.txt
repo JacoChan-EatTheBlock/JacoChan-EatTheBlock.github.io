@@ -1,0 +1,33 @@
+# JacoChen | AI Architect
+
+> Building enterprise AI platforms from scratch. LangGraph, MongoDB, RAG, and the trade-offs nobody talks about.
+
+## llms.txt
+
+This site contains technical blog posts about enterprise AI architecture, written by an AI architect who built and shipped a production AI workbench serving ~300 users.
+
+## Topics covered
+
+- LangGraph orchestration (stateful graphs, interrupt/resume, sub-graph composition)
+- MongoDB semantic layers ($set additive collapse, not $project)
+- Anti-hallucination engineering (7-layer defense, 35% → 7%)
+- Intent routing systems (11-intent catalog, vector shortcircuit + LLM fallback)
+- K8s sandbox security (YARA scanning, NetworkPolicy isolation, ephemeral Jobs)
+- AI observability without LangSmith (8-table lineage system)
+- Prompt engineering as "semantic mapping" (not conversation)
+- Context engineering and memory systems
+- Token economics and cost attribution
+
+## Key posts
+
+- /2026/09/04/building-enterprise-ai-workbench/ - Six architecture trade-offs
+- /2026/09/04/build-ai-platform-from-scratch/ - Building an AI platform in 2 months
+- /2026/09/05/reduce-rag-hallucination/ - 7 techniques to cut hallucination by 80%
+- /2026/09/05/from-text-to-mql-to-ai-native-dashboards/ - Five architectural shifts for AI dashboards
+- /2026/09/06/prompt-engineering-for-enterprise-ai/ - The semantic mapper philosophy
+- /2026/09/06/k8s-sandbox-security-for-ai-skill-execution/ - K8s sandbox security architecture
+
+## Contact
+
+- GitHub: https://github.com/JacoChan-EatTheBlock
+- Email: jacochen1108@gmail.com

@@ -20,6 +20,7 @@ The system went through three major architecture rewrites in eight months. The h
 - **Intent System**: 11-intent catalog as single source of truth. Vector shortcircuit (37%, ~200ms) + LLM with few-shot fallback (63%). Slot guards, evidence-based write permissions, compound intent decomposition.
 - **Anti-Hallucination**: 7-layer defense — structured output, few-shot anchoring, bigram scoring, dual-use routing, 6-gate validation, ratio/count disambiguation, nightly calibration.
 - **Observability**: 8-table lineage system (trace_request → graph_run → node_run → llm_call → skill_run + trace_link + trace_event + usage). ~2ms overhead per node.
+- **K8s Sandbox**: YARA scanning → K8s ephemeral Jobs → NetworkPolicy isolation. Prepuller DaemonSet, async long tasks, zero-credential execution via presigned URLs.
 
 ## Background
 
@@ -28,4 +29,4 @@ Full-stack AI engineer. NAU Online Master in Data Analytics. Experienced in Pyth
 ## Contact
 
 - GitHub: [JacoChan-EatTheBlock](https://github.com/JacoChan-EatTheBlock)
-- Email: duongvantrang38716@gmail.com
+- Email: jacochen1108@gmail.com

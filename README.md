@@ -1,57 +1,58 @@
-# Van's AI Architect Blog
+# JacoChen's AI Architect Blog
 
-🧠 AI 架构实战笔记 · 从零到生产的全栈 AI 经验
+🧠 Building enterprise AI platforms from scratch. Architecture trade-offs, production lessons, and the engineering nobody talks about.
 
-## 快速开始
+## Quick Start
 
-### 方法 1: GitHub Pages（推荐）
+### Method 1: GitHub Pages (Recommended)
 
-1. Fork 这个仓库（或创建新仓库）
-2. 仓库名改为 `你的用户名.github.io`
-3. Settings → Pages → Source 选 `main` 分支
-4. 等 1-2 分钟，访问 `https://你的用户名.github.io`
+1. Fork this repository (or create a new one)
+2. Rename to `your-username.github.io`
+3. Settings → Pages → Source: `main` branch
+4. Wait 1-2 minutes, visit `https://your-username.github.io`
 
-### 方法 2: 本地预览
+### Method 2: Local Preview
 
 ```bash
 gem install bundler jekyll
 bundle install
 bundle exec jekyll serve
-# 访问 http://localhost:4000
+# Visit http://localhost:4000
 ```
 
-## 添加新文章
+## Adding New Posts
 
-在 `_posts/` 目录下创建文件，命名格式：`YYYY-MM-DD-标题.md`
+Create files in `_posts/` directory, naming format: `YYYY-MM-DD-title.md`
 
 ```markdown
 ---
 layout: default
-title: "你的文章标题"
+title: "Your Post Title"
 date: 2026-09-04
-categories: [分类1, 分类2]
+categories: [Category1, Category2]
 ---
 
-# 你的文章标题
+# Your Post Title
 
-正文内容...
+Content here...
 ```
 
-## 目录结构
+## Directory Structure
 
 ```
 blog/
-├── _config.yml          # Jekyll 配置
-├── _posts/              # 文章目录（添加新文章在这里）
-│   ├── 2026-09-04-build-ai-platform-from-scratch.md
-│   └── 2026-09-05-reduce-rag-hallucination.md
-├── index.md             # 首页
-├── about.md             # 关于页
-├── projects.md          # 项目展示页
-└── README.md            # 这个文件
+├── _config.yml          # Jekyll configuration
+├── _posts/              # Posts directory (add new posts here)
+│   ├── 2026-09-04-building-enterprise-ai-workbench.md
+│   ├── 2026-09-05-reduce-rag-hallucination.md
+│   └── ... (11 posts total)
+├── assets/images/       # SVG diagrams (27 figures)
+├── index.md             # Homepage
+├── about.md             # About page
+└── README.md            # This file
 ```
 
-## 作者
+## Author
 
-**Van Trang Duong** — AI Architect  
-📧 duongvantrang38716@gmail.com
+**JacoChen** — AI Architect  
+📧 jacochen1108@gmail.com

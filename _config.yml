@@ -3,6 +3,7 @@ title: "JacoChan | AI Architect"
 description: "AI 架构实战笔记 · 从零到生产的全栈 AI 经验"
 author: "JacoChan"
 url: "https://jacochan-eattheblock.github.io" # 你的 GitHub Pages 地址
+baseurl: "/jacochan.github.io" # 项目站点的子路径
 
 # 主题
 remote_theme: pages-themes/minimal@v0.2.0

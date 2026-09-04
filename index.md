@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# 🧠 Van | AI Architect
+# 🧠 JacoChan | AI Architect
 
 > 全栈 AI 架构师 · 1-2 个月从零搭建企业级 AI 平台  
 > LLM / RAG / Agent / 向量数据库 / K8s 部署
@@ -27,6 +27,5 @@ title: Home
 
 - 🔧 **技术栈**: Python / LangChain / LangGraph / vLLM / RAG / Agent / K8s
 - 🏗️ **核心能力**: 端到端 AI 系统设计 · 从原型到生产
-- 📧 **联系**: duongvantrang38716@gmail.com
-- 💼 **LinkedIn**: [点击查看](#)
-- 🐙 **GitHub**: [点击查看](#)
+- 📧 **联系**: jacochen1108@gmail.com
+- 🐙 **GitHub**: [JacoChan-EatTheBlock](https://github.com/JacoChan-EatTheBlock)

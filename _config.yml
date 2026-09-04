@@ -2,7 +2,7 @@
 title: "JacoChan | AI Architect"
 description: "AI 架构实战笔记 · 从零到生产的全栈 AI 经验"
 author: "JacoChan"
-url: "" # 发布后改成 https://你的用户名.github.io
+url: "https://jacochan-eattheblock.github.io" # 你的 GitHub Pages 地址
 
 # 主题
 remote_theme: pages-themes/minimal@v0.2.0
